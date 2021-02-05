@@ -1,3 +1,7 @@
+ln -s ~/.dotfiles/.npm ~/.npm
+ln -s ~/.dotfiles/.vscode ~/.vscode
+ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+
 echo "Installing Brew..."
 sudo apt-get install build-essential curl file git
 
@@ -7,10 +11,9 @@ echo "Installing brew cask..."
 
 brew tap caskroom/cask
 
-# Tools:
+echo "Installing all of your programs..."
 
-brew install git
-brew cask install firefox
+brew bundle --file ~/.dotfiles/Brewfile
 
 echo "Done installing. Enjoy :D"
 
