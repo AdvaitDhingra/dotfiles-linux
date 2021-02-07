@@ -5,7 +5,7 @@ sudo apt-get install build-essential curl file git
 
 echo "Installing brew cask..."
 
-brew tap caskroom/cask
+brew tap homebrew/cask
 
 # Tools:
 
