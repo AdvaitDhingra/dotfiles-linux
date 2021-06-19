@@ -1,4 +1,5 @@
 ln -s ~/.dotfiles/config-files/.gitconfig ~/.gitconfig
+ln -s ~/dotfiles/config-files/.vimrc ~/.vimrc
 
 echo "Done linking"
 
